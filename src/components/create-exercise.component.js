@@ -93,8 +93,7 @@ export default class CreateExercise extends Component {
                             className="form-control"
                             value={this.state.username}
                             onChange={this.onChangeUsername}>
-                                /** Allows us to choose a user to associate with 
-                                an exercise */
+                                 {/* Allows us to choose a user to associate with an exercise */}
                                 {
                                     this.state.users.map(function(user){
                                         return <option
