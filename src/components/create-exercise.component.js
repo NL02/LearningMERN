@@ -60,14 +60,14 @@ export default class CreateExercise extends Component {
 
         const exercise = {
             username: this.state.username,
-            description: this.state.duration,
+            description: this.state.description,
             duration: this.state.duration,
             date: this.state.date
         }
 
         console.log(exercise)
 
-        window.location = '/' //takes user back to homepage
+        // window.location = '/' //takes user back to homepage
     }
 
     render() {
